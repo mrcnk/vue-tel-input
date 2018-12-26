@@ -36,6 +36,7 @@
       :state="state"
       :formatter="format"
       :disabled="disabled"
+      :autofocus="autofocus"
       @blur="onBlur"
       @input="onInput"
       :required="required"
@@ -166,6 +167,10 @@ export default {
     required: {
       type: Boolean,
       default: false,
+    },
+    autofocus: {
+      type: Boolean,
+      default: false
     },
     defaultCountry: {
       // Default country code, ie: 'AU'
