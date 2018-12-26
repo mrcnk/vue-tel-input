@@ -36,7 +36,7 @@
       :state="state"
       :formatter="format"
       :disabled="disabled"
-      :autofocus="autofocus"
+      :autofocus="'autofocus'"
       @blur="onBlur"
       @input="onInput"
       :required="required"
